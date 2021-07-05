@@ -6,7 +6,7 @@ Further Feedback is welcomed as i dont get one from my proffesor.<br>
 
 # Story Behind this Program
 Started as a homework for just plotting a general heat equation in MATLAB.<br>
-Later turns out to be a user based input calculation of Homogenous 2D Heat Equation Calculations and plotting Using analytical equation.<br>
+Later turns out to be a user based input calculation of Homogenous 1D Heat Equation Calculations and plotting Using analytical equation.<br>
 and yes, i put too much work for this program that probably does not affect my grade so much.<br>
 
 # What can this program do
