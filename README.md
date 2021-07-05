@@ -10,7 +10,7 @@ Later turns out to be a user based input calculation of Homogenous 1D Heat Equat
 and yes, i put too much work for this program that probably does not affect my grade so much.<br>
 
 # What can this program do
-- Calculating the temperature for 2 dimensional heat conduction with each end holds at 0 degree celcius<br>
+- Calculating the temperature for one dimensional heat conduction with each end holds at 0 degree celcius<br>
 - With input at the command window such as :<br>
   - Rod length<br>
   - Order of Fourier Series<br>
@@ -23,7 +23,7 @@ and yes, i put too much work for this program that probably does not affect my g
   - Temperature Distribution across the rod<br>
   - Plotting the Temperature based on order and time categorizations (V2.0)<br>
 # What this program does not do (yet)
-- Calculating the temperature for 2 dimensional heat conduction with each end holds at a different temperature (Non - Homogeneous)<br>
+- Calculating the temperature for one dimensional heat conduction with each end holds at a different temperature (Non - Homogeneous)<br>
 - Determining The time with a maximum temperature as an input<br>
 # What's The difference in difference version? <br>
 Glad you ask because this code already have two version available (30 June 2021)<br>
