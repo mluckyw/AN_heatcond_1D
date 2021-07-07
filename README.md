@@ -10,7 +10,9 @@ Later turns out to be a user based input calculation of Homogenous 1D Heat Equat
 and yes, i put too much work for this program that probably does not affect my grade so much.<br>
 
 # What can this program do
-- Calculating the temperature for one dimensional heat conduction with each end holds at 0 degree celcius<br>
+- Calculating the temperature for one dimensional heat conduction with each end holds at 0 degree celcius with the equation below<br>
+  <img src = "https://github.com/mluckyw/AN_heatcond_1D/blob/main/Heat_Conduction_Homogeneous_test_run/General_equation.PNG" /><br>
+  <img src = "https://github.com/mluckyw/AN_heatcond_1D/blob/main/Heat_Conduction_Homogeneous_test_run/Cn_value.PNG" /><br>
 - With input at the command window such as :<br>
   - Rod length<br>
   - Order of Fourier Series<br>
@@ -22,6 +24,15 @@ and yes, i put too much work for this program that probably does not affect my g
   - Cn Variable and General Equation of U(x,t) (V2.0)<br>
   - Temperature Distribution across the rod<br>
   - Plotting the Temperature based on order and time categorizations (V2.0)<br>
+  <p align = "center"> Temperature Plotting from V1.0 <p/>
+  <img src = "https://github.com/mluckyw/AN_heatcond_1D/blob/main/Heat_Conduction_Homogeneous_test_run/Heat_Conduction_Homogeneous_1D_V1_0_n_10.jpg?raw=true" />
+  <p align = "center"> Temperature Plotting from V2.0 <p/>
+  <p align = "center"> Grouping based on Time input <p/>
+  <img src = "https://github.com/mluckyw/AN_heatcond_1D/blob/main/Heat_Conduction_Homogeneous_test_run/Heat_Conduction_Homogeneous_1D_V2_0_Time_based.jpg?raw=true" />
+  <p align = "center"> Grouping based on Order input  <p/>
+  <img src = "https://github.com/mluckyw/AN_heatcond_1D/blob/main/Heat_Conduction_Homogeneous_test_run/Heat_Conduction_Homogeneous_1D_V2_0_Order_based.jpg?raw=true" />
+<br>
+
 # What this program does not do (yet)
 - Calculating the temperature for one dimensional heat conduction with each end holds at a different temperature (Non - Homogeneous)<br>
 - Determining The time with a maximum temperature as an input<br>
