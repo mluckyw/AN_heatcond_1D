@@ -1,0 +1,43 @@
+Heat Conduction Homogeneous 1D V1.0 Run example
+
+Welcome to Homogeneous 1D Heat Conduction Problems ver 2.0
+DISCLAIMER: The program took a long time to run, please do be patient
+This MatLab code are made for Heat Conduction Problems
+The modes in this codes are: Plotting and calculating Homogenous heat conduction,
+With plotting variation on time (max = 3) and N
+Further optimization and range addition could be conducted with more time
+The program made by M.Lucky Witjaksono
+The program will be beneficial for faster system analsys
+ 
+This programs run on the equations of: 
+U(X,T) = X(x)T(t)
+u(x,t) = Cn Un (x,t) = sigma Cn exp^((-(n^2)(phi^2)(a^2)(t))/(L^2)) sin(n phi x/L)
+With Cn of (2/L)Integral[L to 0] f(x) sin(n phi x / L) dx
+The following are the input required by the program
+Rod length (meter): 50
+Thermal diffusivity (alpha^2): 1
+Step along the rod (min 1): 2
+n Value (n>1): 10
+initial conditon is a polynominal with fuction of X? yes(1),no(0): 0
+Initial Temperature: 20
+The user input are as follows:
+Rod Length: 
+    50
+
+Thermal diffusivity (alpha^2)
+     1
+
+Initial temperature distribution [f(x)]
+    20
+
+Step along the rod:
+     2
+
+how much t(second) are wanted to be plotted (max = 3)? 3
+T1 value (Seconds): 0
+T2 value (Seconds): 25
+T3 value (Seconds): 75
+Thank you for using the program
+CopyRight - Muhammad Lucky Witjaksono
+Contact: github.com/mluckyw
+>> 

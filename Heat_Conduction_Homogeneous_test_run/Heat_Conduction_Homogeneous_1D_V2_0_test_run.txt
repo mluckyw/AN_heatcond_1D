@@ -1,0 +1,52 @@
+Heat Conduction Homogeneous 1D V2.0 Run example
+
+
+Welcome to Homogeneous 1D Heat Conduction Problems ver 2.0
+This MatLab code are made for Heat Conduction Problems
+The modes in this codes are: Plotting and calculating Homogenous heat conduction,
+With plotting variation on time and fourier order
+Further optimization and range addition could be conducted with more time
+The program made by M.Lucky Witjaksono
+The program will be beneficial for faster system analsys
+ 
+This programs runs on the equations of: 
+U(X,T) = X(x)T(t)
+u(x,t) = Cn Un (x,t) = sigma Cn exp^((-(n^2)(phi^2)(a^2)(t))/(L^2)) sin(n phi x/L)
+With Cn of (2/L)Integral[L to 0] f(x) sin(n phi x / L) dx
+The following are the input required by the program
+Rod length (Cm): 50
+Thermal diffusivity (alpha^2): 1
+Step along the rod(Cm): 2
+initial conditon is a polynominal with fuction of X? yes(1),no(0): 0
+Initial Temperature: 20
+How many order of the fourier series that want to be analyzed(n): 3
+Please input with the current order value are smaller than the next
+1 order input 
+Order value (n>1): 1
+2 order input 
+Order value (n>1): 10
+3 order input 
+Order value (n>1): 100
+The value of CN:  
+-(40*(cos(pi*n) - 1))/(n*pi)
+ 
+Below are the general Solution equations: 
+-(40*sin((pi*n*x)/50)*exp(-(555609333788003*n^2*t)/140737488355328000)*(cos(pi*n) - 1))/(n*pi)
+ 
+How many time want to be analyzed: 3
+1 Time input 
+Time value: : 0
+2 Time input 
+Time value: : 25
+3 Time input 
+Time value: : 75
+The program are currently calculating, Please wait
+The time are depending on how many order are analyzed
+Categorized plotting by time(1) or order(2): 1
+Thank you for using the program
+CopyRight - Muhammad Lucky Witjaksono
+Contact: github.com/mluckyw
+Categorized plotting by time(1) or order(2): >> 2
+Thank you for using the program
+CopyRight - Muhammad Lucky Witjaksono
+Contact: github.com/mluckyw
